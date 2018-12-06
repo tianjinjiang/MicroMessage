@@ -261,9 +261,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="428" />
     <option name="y" value="23" />
-    <option name="width" value="1600" />
-    <option name="height" value="830" />
+    <option name="width" value="1120" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -674,12 +675,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543981082851</updated>
       <workItem from="1543981084409" duration="10132000" />
-      <workItem from="1544063188327" duration="8746000" />
+      <workItem from="1544063188327" duration="8795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18878000" />
+    <option name="totallyTimeSpent" value="18927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="0" />
@@ -704,7 +705,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81450576" visible="true" weight="0.23690774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81450576" weight="0.23690774" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49935815" weight="0.32917705" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18677792" />

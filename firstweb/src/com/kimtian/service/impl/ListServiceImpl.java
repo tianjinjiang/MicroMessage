@@ -13,6 +13,6 @@ import java.util.List;
 public class ListServiceImpl {
     public List<Message> queryMessageList(String command, String description) {
         MessageDao messageDao = new MessageDao();
-        return messageDao.searchList(command, description);
+        return messageDao.searchMessageList(command, description);
     }
 }

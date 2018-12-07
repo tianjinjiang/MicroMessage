@@ -5,6 +5,7 @@ import com.kimtian.db.DBAcess;
 import org.apache.ibatis.session.SqlSession;
 
 import java.io.IOException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +16,7 @@ import java.util.List;
  **/
 public class MessageDao {
 
-//    public List<Message> searchList(String command, String description) {
+//    public List<Message> searchMessageList(String command, String description) {
 //        List<Message> messageList = new ArrayList<>();
 //        try {
 //            Class.forName("com.mysql.jdbc.Driver");
@@ -67,9 +68,11 @@ public class MessageDao {
      **/
     public List<Message> searchMessageList(String command, String description) {
         DBAcess dbAcess = new DBAcess();
+        List<Message> messageList = new ArrayList<>();
         SqlSession sqlSession = null;
         try {
             sqlSession = dbAcess.getSqlSession();
+            messageList = sqlSession.selectList("Message.searchMessageList");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -77,21 +80,6 @@ public class MessageDao {
                 sqlSession.close();
             }
         }
-        List list = new ArrayList();
-        Message message = new Message();
-        message.setId(1L);
-        message.setCommand("111");
-        message.setContent("2222");
-        message.setDescription("3333");
-        list.add(message);
-        return list;
-    }
-
-    public static void main(String[] args) {
-        MessageDao messageDao = new MessageDao();
-        List<Message> aaa = messageDao.searchMessageList("", "");
-        for (Message m : aaa) {
-            System.out.println(m.getId());
-        }
+        return messageList;
     }
 }

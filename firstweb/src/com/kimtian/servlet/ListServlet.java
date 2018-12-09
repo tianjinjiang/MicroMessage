@@ -1,14 +1,11 @@
-package com.kimtian.servlet;
+package kimtian.servlet;
 
 
-import com.kimtian.bean.Message;
-import com.kimtian.service.ListService;
-import com.kimtian.service.impl.ListServiceImpl;
+import kimtian.service.impl.ListServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * 列表页面初始化控制
@@ -24,7 +21,7 @@ public class ListServlet extends HttpServlet {
         String command = req.getParameter("command");
         String description = req.getParameter("description");
         System.out.println(command + "，" + description);
-        ListService listServiceimpl = new ListServiceImpl();
+        ListServiceImpl listServiceimpl = new ListServiceImpl();
         //向页面传值
         req.setAttribute("command", command);
         req.setAttribute("description", description);

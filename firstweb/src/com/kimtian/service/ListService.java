@@ -1,4 +1,4 @@
-package com.kimtian.service;
+package kimtian.service;
 
 import com.kimtian.bean.Message;
 
@@ -18,4 +18,17 @@ public interface ListService {
      * @return List<Message> 消息列表
      **/
     List<Message> queryMessageList(String command, String description);
+
+    /**
+     * 根据ID删除消息
+     *
+     * @param id ID编号
+     **/
+    void deleteById(Long id);
+    /**
+     * 批量删除消息
+     *
+     * @param messagesList 消息列表
+     **/
+    void deleteBatch(List<Message> messagesList);
 }

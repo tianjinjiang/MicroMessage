@@ -39,11 +39,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstweb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="203">
+              <caret line="195" column="34" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstweb/test/com/kimtian/test/MessageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-394">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/MessageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,53 +69,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/dao/MessageDao.java">
+      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/common/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="77" column="74" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/Message.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlSession.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.0/mybatis-3.4.0-sources.jar!/org/apache/ibatis/session/SqlSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="228">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,31 +90,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBAcess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java">
+      <file leaf-file-name="FrameworkMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="138">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1464#1658#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/Configuration.xml">
+      <file leaf-file-name="InvokeMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstweb/src/log4j.properties">
+      <file leaf-file-name="ParentRunner.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257" />
+            <state relative-caret-position="187">
+              <caret line="369" selection-start-line="369" selection-end-line="369" />
+              <folding>
+                <element signature="e#2922#2923#0" expanded="true" />
+                <element signature="e#2966#2967#0" expanded="true" />
+                <element signature="e#10310#10449#0" expanded="true" />
+                <element signature="e#10448#10449#0" expanded="true" />
+                <element signature="e#11040#11204#0" expanded="true" />
+                <element signature="e#11203#11204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JUnitCore.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockJUnit4ClassRunner.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -139,6 +153,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -147,6 +162,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com/kimtian/conf/Configuration.xml</find>
+      <find>deleteOne</find>
+      <find>jacoco</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml</dir>
@@ -196,16 +213,22 @@
         <option value="$PROJECT_DIR$/firstweb/web/index.jsp" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/bean/Message.java" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java" />
         <option value="$PROJECT_DIR$/firstweb/web/WEB-INF/jsp/back/list.jsp" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/User.xml" />
-        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/Message.xml" />
-        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java" />
         <option value="$PROJECT_DIR$/firstweb/src/test/java/com/kimtian/test/SpringTestTest.java" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/conf/Configuration.xml" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java" />
-        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/test/java/com/kimtian/test/MessageTest.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/Message.xml" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java" />
         <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/firstweb/web/resources/js/list.js" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/common/Constant.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/firstweb/src/test/com/kimtian/test/MessageTest.java" />
       </list>
     </option>
   </component>
@@ -239,14 +262,35 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="first_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="first_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="first_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="first_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1600" />
     <option name="height" value="830" />
@@ -289,7 +333,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="kimtian" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
@@ -307,22 +351,6 @@
               <item name="kimtian" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
               <item name="sqlxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kimtian" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kimtian" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
@@ -352,41 +380,46 @@
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="kimtian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstweb" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kimtian" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroMessage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,12 +446,15 @@
       <recent name="$PROJECT_DIR$/firstweb/src" />
       <recent name="$PROJECT_DIR$/firstweb" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kimtian.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/firstweb" />
       <recent name="$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml" />
       <recent name="$PROJECT_DIR$/firstweb/src/com/kimtian/conf" />
       <recent name="$PROJECT_DIR$/firstweb/src" />
       <recent name="$PROJECT_DIR$/firstweb/web/resources" />
-      <recent name="$PROJECT_DIR$/firstweb/web/WEB-INF/jsp/back" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,31 +469,112 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListServiceImpl">
-    <configuration name="ListServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kimtian.service.impl.ListServiceImpl" />
+  <component name="RunManager" selected="Application.ListServiceImpl (1)">
+    <configuration name="ListServiceImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kimtian.service.impl.ListServiceImpl" />
       <module name="firstweb" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kimtian.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MessageDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kimtian.dao.MessageDao" />
-      <module name="firstweb" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kimtian.dao.*" />
+          <option name="PATTERN" value="kimtian.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MessageTest.testDeleteBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kimtian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kimtian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kimtian.test.MessageTest" />
+      <option name="METHOD_NAME" value="testDeleteBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MessageTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kimtian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kimtian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kimtian.test.MessageTest" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MessageTest.testQueryMessageList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kimtian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kimtian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kimtian.test.MessageTest" />
+      <option name="METHOD_NAME" value="testQueryMessageList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MessageTest.testSearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kimtian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kimtian.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kimtian.test.MessageTest" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -640,13 +757,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="Application.MessageDao" />
-      <item itemvalue="Application.ListServiceImpl" />
+      <item itemvalue="JUnit.MessageTest.testSearch (1)" />
+      <item itemvalue="JUnit.MessageTest.testDeleteById" />
+      <item itemvalue="JUnit.MessageTest.testDeleteBatch" />
+      <item itemvalue="Application.ListServiceImpl (1)" />
+      <item itemvalue="JUnit.MessageTest.testQueryMessageList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListServiceImpl" />
-        <item itemvalue="Application.MessageDao" />
+        <item itemvalue="Application.ListServiceImpl (1)" />
+        <item itemvalue="JUnit.MessageTest.testQueryMessageList" />
+        <item itemvalue="JUnit.MessageTest.testDeleteBatch" />
+        <item itemvalue="JUnit.MessageTest.testDeleteById" />
+        <item itemvalue="JUnit.MessageTest.testSearch (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -716,42 +839,74 @@
       <workItem from="1544084650487" duration="6878000" />
       <workItem from="1544169514734" duration="600000" />
       <workItem from="1544267707461" duration="1183000" />
-      <workItem from="1544275732529" duration="1474000" />
+      <workItem from="1544275732529" duration="7111000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MessageTest_testDeleteById - 2018.12.09 at 16h 20m 42s.xml">
+      <configuration name="MessageTest.testDeleteById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testDeleteBatch - 2018.12.09 at 16h 45m 12s.xml">
+      <configuration name="MessageTest.testDeleteBatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testDeleteBatch - 2018.12.09 at 16h 47m 45s.xml">
+      <configuration name="MessageTest.testDeleteBatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testDeleteBatch - 2018.12.09 at 16h 52m 01s.xml">
+      <configuration name="MessageTest.testDeleteBatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 33m 21s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 34m 57s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 35m 06s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 36m 04s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 36m 40s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageTest_testQueryMessageList - 2018.12.09 at 17h 37m 21s.xml">
+      <configuration name="MessageTest.testQueryMessageList" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29062000" />
+    <option name="totallyTimeSpent" value="34699000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18998717" side_tool="true" visible="true" weight="0.48004988" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.49252242" side_tool="true" visible="true" weight="0.33491462" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49935815" weight="0.32917705" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32991013" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.2562313" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32991013" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.498006" weight="0.32827324" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32951146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24967907" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24925224" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49743262" weight="0.3990025" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49700898" weight="0.39848197" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49935815" weight="0.32917705" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987163" weight="0.32917705" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8100128" visible="true" weight="0.48004988" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5074776" visible="true" weight="0.33491462" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987163" weight="0.32917705" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21758665" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16899303" />
+      <window_info anchor="right" id="Bean Validation" weight="0.32951146" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Compute Code Lines" order="7" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49935815" weight="0.59351623" />
@@ -760,7 +915,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49935815" weight="0.32917705" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -775,31 +929,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java</url>
+          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/MessageServiceImpl.java</url>
           <line>21</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java</url>
+          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/MessageServiceImpl.java</url>
           <line>23</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -807,199 +949,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/mybatis-3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/io/Resources.class" />
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/dao/MessageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="117" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/bean/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/WEB-INF/jsp/back/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/js/jquery-1.8.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/Configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/bean/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/WEB-INF/jsp/back/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/META-INF/c.tld" />
-    <entry file="file://$PROJECT_DIR$/firstweb/firstweb.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/js/jquery-1.8.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/META-INF/c.tld" />
     <entry file="file://$PROJECT_DIR$/firstweb/firstweb.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1012,13 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3705">
           <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/js/jquery-1.8.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1086,29 +1028,6 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/mybatis-3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/io/Resources.class" />
-    <entry file="file://$PROJECT_DIR$/firstweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstweb/src/test/java/com/kimtian/test/interface_practice_test/TestTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1140,31 +1059,128 @@
     <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/Configuration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.0/mybatis-3.4.0-sources.jar!/org/apache/ibatis/session/SqlSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="2556">
+          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/test/java/com/kimtian/test/MessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.0/mybatis-3.4.0-sources.jar!/org/apache/ibatis/session/SqlSession.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="289">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/servlet/ListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="-244">
+          <caret line="8" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/js/jquery-1.8.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1608">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/web/resources/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/Message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/ListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.0/mybatis-3.4.0-sources.jar!/org/apache/ibatis/io/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/db/DBAcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1173,18 +1189,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/dao/MessageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="77" column="74" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="74" />
+        <state relative-caret-position="352">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/conf/sqlxml/Message.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="806" selection-start-line="806" selection-end-line="806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#10310#10449#0" expanded="true" />
+            <element signature="e#10448#10449#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/test/com/kimtian/test/MessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/test/com/kimtian/test/MessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="195" column="34" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstweb/src/com/kimtian/service/impl/ListServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

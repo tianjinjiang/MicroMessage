@@ -1,9 +1,10 @@
-package com.kimtian.service.impl;
+package kimtian.service.impl;
 
 import com.kimtian.bean.Message;
-import com.kimtian.dao.MessageDao;
-import com.kimtian.service.ListService;
+import kimtian.dao.MessageDao;
+import kimtian.service.ListService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,11 +19,37 @@ public class ListServiceImpl implements ListService {
         return messageDao.searchMessageList(command, description);
     }
 
-    public static void main(String[] args) {
+    @Override
+    public void deleteById(Long id) {
         MessageDao messageDao = new MessageDao();
-        List<Message> messageList = messageDao.searchMessageList("", "乐");
+        messageDao.deleteOne(id);
+    }
+
+    @Override
+    public void deleteBatch(List<Message> messageList) {
+        MessageDao messageDao = new MessageDao();
+        List<Long> idList = new ArrayList<>();
         for (Message message : messageList) {
-            System.out.println(message.getId() + "," + message.getCommand());
+            idList.add(message.getId());
         }
+        messageDao.deleteBatch(idList);
+    }
+
+    public static void main(String[] args) {
+        ListServiceImpl listService = new ListServiceImpl();
+        Message message = new Message();
+        message.setId(6L);
+        Message message1 = new Message();
+        message.setId(7L);
+        Message message2 = new Message();
+        message.setId(8L);
+        Message message3 = new Message();
+        message.setId(10L);
+        List<Message> messageList = new ArrayList<>();
+        messageList.add(message);
+        messageList.add(message1);
+        messageList.add(message2);
+        messageList.add(message3);
+        listService.deleteBatch(messageList);
     }
 }

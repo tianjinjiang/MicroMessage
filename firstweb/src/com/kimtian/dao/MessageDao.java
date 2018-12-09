@@ -1,11 +1,10 @@
-package com.kimtian.dao;
+package kimtian.dao;
 
 import com.kimtian.bean.Message;
 import com.kimtian.db.DBAcess;
 import org.apache.ibatis.session.SqlSession;
 
 import java.io.IOException;
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,5 +83,47 @@ public class MessageDao {
             }
         }
         return messageList;
+    }
+
+    /**
+     * 根据id删除一条数据
+     *
+     * @param id 编号
+     **/
+    public void deleteOne(Long id) {
+        DBAcess dbAcess = new DBAcess();
+        SqlSession sqlSession = null;
+        try {
+            sqlSession = dbAcess.getSqlSession();
+            sqlSession.delete("Message.deleteOne", id);
+            sqlSession.commit();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (sqlSession != null) {
+                sqlSession.close();
+            }
+        }
+    }
+
+    /**
+     * 批量删除数据
+     *
+     * @param idList 编号列表
+     **/
+    public void deleteBatch(List<Long> idList) {
+        DBAcess dbAcess = new DBAcess();
+        SqlSession sqlSession = null;
+        try {
+            sqlSession = dbAcess.getSqlSession();
+            sqlSession.delete("Message.deleteBatch", idList);
+            sqlSession.commit();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (sqlSession != null) {
+                sqlSession.close();
+            }
+        }
     }
 }

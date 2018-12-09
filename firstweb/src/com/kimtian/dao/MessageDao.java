@@ -1,4 +1,4 @@
-package kimtian.dao;
+package com.kimtian.dao;
 
 import com.kimtian.bean.Message;
 import com.kimtian.db.DBAcess;

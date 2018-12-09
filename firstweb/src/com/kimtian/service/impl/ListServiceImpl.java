@@ -1,8 +1,8 @@
-package kimtian.service.impl;
+package com.kimtian.service.impl;
 
 import com.kimtian.bean.Message;
-import kimtian.dao.MessageDao;
-import kimtian.service.ListService;
+import com.kimtian.dao.MessageDao;
+import com.kimtian.service.ListService;
 
 import java.util.ArrayList;
 import java.util.List;

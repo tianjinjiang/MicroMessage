@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+first_demo,com.kimtian.servlet,ListServlet,57,0,0,0,13,0,3,0,3,0
+first_demo,com.kimtian.dao,MessageDao,45,82,15,3,9,28,9,4,0,4
+first_demo,com.kimtian.bean,Message,0,31,0,0,0,13,0,9,0,9
+first_demo,com.kimtian.db,DBAcess,0,17,0,0,0,5,0,2,0,2
+first_demo,com.kimtian.service.impl,MessageServiceImpl,6,74,2,8,1,13,2,5,0,2
+first_demo,com.kimtian.service.impl,ListServiceImpl,60,48,0,2,16,13,1,5,1,4
+first_demo,com.kimtian.common,Constant,3,0,0,0,1,0,1,0,1,0

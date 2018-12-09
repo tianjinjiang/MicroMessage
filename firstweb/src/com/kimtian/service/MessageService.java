@@ -1,4 +1,4 @@
-package kimtian.service;
+package com.kimtian.service;
 
 /**
  * 这是一个消息回复服务类

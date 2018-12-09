@@ -1,7 +1,7 @@
-package kimtian.servlet;
+package com.kimtian.servlet;
 
 
-import kimtian.service.impl.ListServiceImpl;
+import com.kimtian.service.impl.ListServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.*;

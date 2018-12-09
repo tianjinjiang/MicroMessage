@@ -1,4 +1,4 @@
-package kimtian.service;
+package com.kimtian.service;
 
 import com.kimtian.bean.Message;
 

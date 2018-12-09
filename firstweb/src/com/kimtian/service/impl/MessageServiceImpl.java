@@ -1,9 +1,9 @@
-package kimtian.service.impl;
+package com.kimtian.service.impl;
 
 import com.kimtian.bean.Message;
-import kimtian.common.Constant;
-import kimtian.dao.MessageDao;
-import kimtian.service.MessageService;
+import com.kimtian.common.Constant;
+import com.kimtian.dao.MessageDao;
+import com.kimtian.service.MessageService;
 
 import java.util.List;
 
@@ -17,10 +17,22 @@ public class MessageServiceImpl implements MessageService {
     @Override
     public String returnMessage(String command) {
         MessageDao messageDao = new MessageDao();
-        List<Message> messageList = messageDao.searchMessageList(command, "");
-        if (messageList != null && messageList.size() > 0) {
-            return messageList.get(0).getContent();
+        if (Constant.HELP_COMMAND.equals(command)) {
+            List<Message> messageList = messageDao.searchMessageList("", "");
+            StringBuffer stringBuffer = new StringBuffer();
+            for (int i = 0; i < messageList.size(); i++) {
+                if (i != 0) {
+                    stringBuffer.append("<br/>");
+                }
+                stringBuffer.append("回复[" + messageList.get(i).getCommand() + "],可以" + messageList.get(i).getDescription() + "。");
+            }
+            return stringBuffer.toString();
+        } else {
+            List<Message> messageList = messageDao.searchMessageList(command, "");
+            if (messageList != null && messageList.size() > 0) {
+                return messageList.get(0).getContent();
+            }
+            return Constant.RETURN_MESSGE;
         }
-        return Constant.RETURN_MESSGE;
     }
 }

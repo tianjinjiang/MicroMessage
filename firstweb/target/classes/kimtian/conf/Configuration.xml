@@ -47,6 +47,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/kimtian/conf/sqlxml/Message.xml"/>
+        <mapper resource="kimtian/conf/sqlxml/Message.xml"/>
     </mappers>
 </configuration>

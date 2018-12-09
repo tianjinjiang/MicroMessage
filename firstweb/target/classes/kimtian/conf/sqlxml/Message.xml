@@ -29,7 +29,13 @@
         <result column="CONTENT" jdbcType="VARCHAR" property="content"/>
     </resultMap>
 
-    <select id="searchMessageList" parameterType="long" resultMap="MessageResult">
-    select ID,COMMAND,DESCRIPTION,CONTENT from message where 1=1
-  </select>
+    <select id="searchMessageList" parameterType="com.kimtian.bean.Message" resultMap="MessageResult">
+        select ID,COMMAND,DESCRIPTION,CONTENT from message where 1=1
+        <if test="command!=null and !&quot;&quot;.equals(command.trim())">
+            AND COMMAND = #{command}
+        </if>
+        <if test="description!=null and !&quot;&quot;.equals(description.trim())">
+            AND DESCRIPTION like '%' #{description} '%'
+        </if>
+    </select>
 </mapper>

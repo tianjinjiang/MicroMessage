@@ -71,8 +71,11 @@ public class MessageDao {
         List<Message> messageList = new ArrayList<>();
         SqlSession sqlSession = null;
         try {
+            Message message = new Message();
+            message.setCommand(command);
+            message.setDescription(description);
             sqlSession = dbAcess.getSqlSession();
-            messageList = sqlSession.selectList("Message.searchMessageList");
+            messageList = sqlSession.selectList("Message.searchMessageList", message);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

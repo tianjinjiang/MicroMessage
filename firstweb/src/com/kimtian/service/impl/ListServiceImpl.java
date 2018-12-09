@@ -20,7 +20,7 @@ public class ListServiceImpl implements ListService {
 
     public static void main(String[] args) {
         MessageDao messageDao = new MessageDao();
-        List<Message> messageList = messageDao.searchMessageList("", "");
+        List<Message> messageList = messageDao.searchMessageList("", "乐");
         for (Message message : messageList) {
             System.out.println(message.getId() + "," + message.getCommand());
         }

@@ -85,4 +85,32 @@ public class MessageTest {
         String messgeContent2 = messageService.returnMessage(" gggghajhfds ");
         Assert.assertEquals(messgeContent2, Constant.RETURN_MESSGE);
     }
+
+    @Test
+    public void testInserMessage() {
+        ListServiceImpl listService = new ListServiceImpl();
+        Message message = new Message();
+        message.setCommand("新增");
+        message.setDescription("这是一个新增");
+        message.setContent("新增的内容");
+        Message message1 = new Message();
+        message1.setCommand("新增test");
+        message1.setDescription("这是一个新增test");
+        message1.setContent("新增的内容test");
+        List<Message> messageList = new ArrayList<>();
+        messageList.add(message);
+        messageList.add(message1);
+        listService.addMessage(messageList);
+    }
+
+    @Test
+    public void testUpdateMessage() {
+        ListServiceImpl listService = new ListServiceImpl();
+        Message message = new Message();
+        message.setId(13L);
+        message.setCommand("新增");
+        message.setDescription("这是一个新增");
+        message.setContent("新增的内容");
+        listService.updateMessage(message);
+    }
 }

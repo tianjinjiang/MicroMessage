@@ -35,21 +35,15 @@ public class ListServiceImpl implements ListService {
         messageDao.deleteBatch(idList);
     }
 
-    public static void main(String[] args) {
-        ListServiceImpl listService = new ListServiceImpl();
-        Message message = new Message();
-        message.setId(6L);
-        Message message1 = new Message();
-        message.setId(7L);
-        Message message2 = new Message();
-        message.setId(8L);
-        Message message3 = new Message();
-        message.setId(10L);
-        List<Message> messageList = new ArrayList<>();
-        messageList.add(message);
-        messageList.add(message1);
-        messageList.add(message2);
-        messageList.add(message3);
-        listService.deleteBatch(messageList);
+    @Override
+    public void addMessage(List<Message> messageList) {
+        MessageDao messageDao = new MessageDao();
+        messageDao.insertMessage(messageList);
+    }
+
+    @Override
+    public void updateMessage(Message message) {
+        MessageDao messageDao = new MessageDao();
+        messageDao.updateMessage(message);
     }
 }

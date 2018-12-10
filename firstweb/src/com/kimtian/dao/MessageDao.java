@@ -126,4 +126,46 @@ public class MessageDao {
             }
         }
     }
+
+    /**
+     * 新增数据
+     *
+     * @param messageList 消息列表
+     **/
+    public void insertMessage(List<Message> messageList) {
+        DBAcess dbAcess = new DBAcess();
+        SqlSession sqlSession = null;
+        try {
+            sqlSession = dbAcess.getSqlSession();
+            sqlSession.insert("Message.insertMessage", messageList);
+            sqlSession.commit();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (sqlSession != null) {
+                sqlSession.close();
+            }
+        }
+    }
+
+    /**
+     * 更新数据
+     *
+     * @param message 消息
+     **/
+    public void updateMessage(Message message) {
+        DBAcess dbAcess = new DBAcess();
+        SqlSession sqlSession = null;
+        try {
+            sqlSession = dbAcess.getSqlSession();
+            sqlSession.update("Message.updateMessage", message);
+            sqlSession.commit();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (sqlSession != null) {
+                sqlSession.close();
+            }
+        }
+    }
 }

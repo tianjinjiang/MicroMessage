@@ -50,4 +50,39 @@
         </foreach>
         )
     </delete>
+
+
+    <insert id="insertMessage" parameterType="java.util.List">
+        insert into message (COMMAND,DESCRIPTION,CONTENT) values
+        <foreach collection="list" item="message" index="index" separator=",">
+            (
+            #{message.command},
+            #{message.description},
+            #{message.content}
+            )
+        </foreach>
+    </insert>
+
+
+    <update id="updateMessage" parameterType="com.kimtian.bean.Message">
+        update message
+        <set >
+            <if test="command!=null and !&quot;&quot;.equals(command.trim())">
+                COMMAND = #{command},
+            </if>
+            <if test="description!=null and !&quot;&quot;.equals(description.trim())">
+                DESCRIPTION = #{description},
+            </if>
+            <if test="content!=null and !&quot;&quot;.equals(content.trim())">
+                CONTENT = #{description},
+            </if>
+        </set>
+        <where>
+            ID = #{id}
+        </where>
+
+
+    </update>
+
+
 </mapper>

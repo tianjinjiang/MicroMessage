@@ -25,10 +25,25 @@ public interface ListService {
      * @param id ID编号
      **/
     void deleteById(Long id);
+
     /**
      * 批量删除消息
      *
      * @param messagesList 消息列表
      **/
     void deleteBatch(List<Message> messagesList);
+
+    /**
+     * 新增消息
+     *
+     * @param messageList 消息列表
+     **/
+    void addMessage(List<Message> messageList);
+
+    /**
+     * 更新消息
+     *
+     * @param message 消息
+     **/
+    void updateMessage(Message message);
 }
